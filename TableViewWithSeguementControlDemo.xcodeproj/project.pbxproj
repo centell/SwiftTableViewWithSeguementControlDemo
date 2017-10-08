@@ -82,6 +82,7 @@
 		ABAC9F7C1F4D299100DB7C2B = {
 			isa = PBXGroup;
 			children = (
+				AB5506B31F8A6AD50014F810 /* README.md */,
 				ABAC9F871F4D299100DB7C2B /* TableViewWithSeguementControlDemo */,
 				ABAC9F9C1F4D299100DB7C2B /* TableViewWithSeguementControlDemoTests */,
 				ABAC9FA71F4D299100DB7C2B /* TableViewWithSeguementControlDemoUITests */,
@@ -110,7 +111,6 @@
 				ABAC9F941F4D299100DB7C2B /* Info.plist */,
 				ABAC9FB61F4D29E700DB7C2B /* FirstTableViewCell.swift */,
 				ABAC9FB81F4D29F500DB7C2B /* SecondTableViewCell.swift */,
-				AB5506B31F8A6AD50014F810 /* README.md */,
 			);
 			path = TableViewWithSeguementControlDemo;
 			sourceTree = "<group>";
