@@ -14,6 +14,8 @@
 		ABAC9F931F4D299100DB7C2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABAC9F911F4D299100DB7C2B /* LaunchScreen.storyboard */; };
 		ABAC9F9E1F4D299100DB7C2B /* TableViewWithSeguementControlDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAC9F9D1F4D299100DB7C2B /* TableViewWithSeguementControlDemoTests.swift */; };
 		ABAC9FA91F4D299100DB7C2B /* TableViewWithSeguementControlDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAC9FA81F4D299100DB7C2B /* TableViewWithSeguementControlDemoUITests.swift */; };
+		ABAC9FB71F4D29E700DB7C2B /* FirstTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAC9FB61F4D29E700DB7C2B /* FirstTableViewCell.swift */; };
+		ABAC9FB91F4D29F500DB7C2B /* SecondTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAC9FB81F4D29F500DB7C2B /* SecondTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AB5506B31F8A6AD50014F810 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		ABAC9F851F4D299100DB7C2B /* TableViewWithSeguementControlDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewWithSeguementControlDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABAC9F881F4D299100DB7C2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABAC9F8A1F4D299100DB7C2B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,8 @@
 		ABAC9FA41F4D299100DB7C2B /* TableViewWithSeguementControlDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewWithSeguementControlDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABAC9FA81F4D299100DB7C2B /* TableViewWithSeguementControlDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewWithSeguementControlDemoUITests.swift; sourceTree = "<group>"; };
 		ABAC9FAA1F4D299100DB7C2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABAC9FB61F4D29E700DB7C2B /* FirstTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstTableViewCell.swift; sourceTree = "<group>"; };
+		ABAC9FB81F4D29F500DB7C2B /* SecondTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +108,9 @@
 				ABAC9F8F1F4D299100DB7C2B /* Assets.xcassets */,
 				ABAC9F911F4D299100DB7C2B /* LaunchScreen.storyboard */,
 				ABAC9F941F4D299100DB7C2B /* Info.plist */,
+				ABAC9FB61F4D29E700DB7C2B /* FirstTableViewCell.swift */,
+				ABAC9FB81F4D29F500DB7C2B /* SecondTableViewCell.swift */,
+				AB5506B31F8A6AD50014F810 /* README.md */,
 			);
 			path = TableViewWithSeguementControlDemo;
 			sourceTree = "<group>";
@@ -262,8 +270,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABAC9FB71F4D29E700DB7C2B /* FirstTableViewCell.swift in Sources */,
 				ABAC9F8B1F4D299100DB7C2B /* ViewController.swift in Sources */,
 				ABAC9F891F4D299100DB7C2B /* AppDelegate.swift in Sources */,
+				ABAC9FB91F4D29F500DB7C2B /* SecondTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,6 +526,7 @@
 				ABAC9FAF1F4D299100DB7C2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ABAC9FB01F4D299100DB7C2B /* Build configuration list for PBXNativeTarget "TableViewWithSeguementControlDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +535,7 @@
 				ABAC9FB21F4D299100DB7C2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ABAC9FB31F4D299100DB7C2B /* Build configuration list for PBXNativeTarget "TableViewWithSeguementControlDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +544,7 @@
 				ABAC9FB51F4D299100DB7C2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
